@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Minha loja</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Favoritos</string>
+    <string name="title_notifications">Contato</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="emailId">giulsilva@hotmail.com</string>
+    <string name="contactNo">031995430219</string>
+    <string name="contate_nos">
+        *Tirar dúvidas.\n
+        *Solicitar orçamentos.\n
+        *Dar sugestões.\n\n
+        Horário de atendimento: \n
+        Segunda a sexta de 8 ás 17:00hs.
+    </string>
+
+</resources>
