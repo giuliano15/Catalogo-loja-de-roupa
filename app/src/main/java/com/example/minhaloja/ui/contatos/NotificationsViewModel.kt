@@ -1,4 +1,4 @@
-package com.example.minhaloja.ui.notifications
+package com.example.minhaloja.ui.contatos
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

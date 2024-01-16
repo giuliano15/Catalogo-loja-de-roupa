@@ -1,7 +1,6 @@
 package com.example.minhaLoja.repository
 
 import com.example.minhaloja.R
-import com.example.minhaloja.model.Item
 import com.example.minhaloja.model.Product
 
 object ListProductRepository {

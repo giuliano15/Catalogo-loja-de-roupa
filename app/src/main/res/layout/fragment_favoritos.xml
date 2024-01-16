@@ -3,24 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.FavoritosFragment">
+    tools:context=".ui.favoritos.FavoritosFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewFavoritos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="?android:attr/actionBarSize"
         android:clipToPadding="false"
         android:padding="8dp"
         android:scrollbars="vertical" />
-
-    <Button
-        android:id="@+id/btnMostrarItem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="testando lista favoritos"
-        android:onClick="onMostrarItemClick">
-
-    </Button>
 
 </FrameLayout>

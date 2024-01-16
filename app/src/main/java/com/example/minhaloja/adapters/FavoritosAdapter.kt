@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.minhaloja.ProductDetailsActivity
 import com.example.minhaloja.R
 import com.example.minhaloja.model.Item
+import com.example.minhaloja.ui.ProductDetailsActivity
 
 class FavoritosAdapter(var listaFavoritos: MutableList<Item> = mutableListOf()) :
     RecyclerView.Adapter<FavoritosAdapter.ViewHolder>() {
@@ -59,6 +59,11 @@ class FavoritosAdapter(var listaFavoritos: MutableList<Item> = mutableListOf()) 
 
     fun getListFavoritos(): List<Item> {
         return listaFavoritos
+    }
+
+    fun removeItem(position: Int) {
+        listaFavoritos.removeAt(position)
+        notifyItemRemoved(position)
     }
 
 }

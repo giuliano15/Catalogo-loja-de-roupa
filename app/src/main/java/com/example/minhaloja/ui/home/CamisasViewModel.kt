@@ -1,14 +1,17 @@
 package com.example.minhaloja.ui.home
 
+import android.content.Context
+import android.content.SharedPreferences
+import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.minhaloja.R
-import com.example.minhaloja.ViewModelEventListener
 import com.example.minhaloja.model.Item
+import com.example.minhaloja.repository.FavoritosRepository
 import com.example.minhaloja.repository.ListCamisasRepository
 
-class CamisasViewModel : ViewModel() {
+
+class CamisasViewModel (private val favoritosRepository: FavoritosRepository) : ViewModel() {
     // Instância do repositório responsável por fornecer os dados
     private val repositoryItem = ListCamisasRepository
 
@@ -30,20 +33,24 @@ class CamisasViewModel : ViewModel() {
     init {
         _favoritosList.value = mutableListOf()
     }
+
+
     // Método para adicionar ou remover itens da lista de favoritos
-    fun adicionarRemoverFavorito(item: Item) {
-        val listaFavoritos = _favoritosList.value ?: mutableListOf()
+    fun adicionarRemoverFavorito( context: Context, item: Item) {
+        val listaFavoritos = _favoritosList.value?.toMutableSet() ?: mutableSetOf()
+
         if (!listaFavoritos.contains(item)) {
+            // Se o item não estiver na lista, adicione-o
             listaFavoritos.add(item)
-        } else {
-            //listaFavoritos.add(item)
-        }
-        _favoritosList.value = listaFavoritos
+
+            // Atualize o repositório e o LiveData
+            favoritosRepository.salvarFavoritos(listaFavoritos.toMutableList())
+            _favoritosList.value = listaFavoritos.toMutableList()
+        }    }
+
+    fun carregarFavoritos() {
+        val favoritos = favoritosRepository.obterFavoritos().toMutableList()
+        _favoritosList.value = favoritos
     }
 
-//    fun adicionarAoFavoritos(item: Item) {
-//        val listaFavoritos = _favoritosList.value ?: mutableListOf()
-//       // listaFavoritos.add(item)
-//        _favoritosList.value = listaFavoritos
-//    }
 }

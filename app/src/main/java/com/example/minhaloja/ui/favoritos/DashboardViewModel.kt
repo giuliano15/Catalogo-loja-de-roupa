@@ -1,4 +1,4 @@
-package com.example.minhaloja.ui.dashboard
+package com.example.minhaloja.ui.favoritos
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

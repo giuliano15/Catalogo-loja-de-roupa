@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.minhaloja.ui.dashboard.DashboardFragment"
+        android:name="com.example.minhaloja.ui.favoritos.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action
@@ -35,7 +35,7 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.minhaloja.ui.notifications.NotificationsFragment"
+        android:name="com.example.minhaloja.ui.contatos.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
 
@@ -53,7 +53,7 @@
 
     <fragment
         android:id="@+id/novoFragment"
-        android:name="com.example.minhaloja.ui.dashboard.FavoritosFragment"
+        android:name="com.example.minhaloja.ui.favoritos.FavoritosFragment"
         android:label="Novo fragmnet">
 
         <!-- Outras configurações do CamisasFragment -->

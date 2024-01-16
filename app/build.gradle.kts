@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
+    id ("com.android.library")
     id("org.jetbrains.kotlin.android")
+    //id ("kotlin-kapt")
 }
 
 android {
@@ -56,5 +58,16 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.11.0")
 
     implementation ("com.github.clans:fab:1.6.4")
+    implementation ("com.google.code.gson:gson:2.8.9")
+
+//    implementation ("com.google.dagger:hilt-android:2.38.1")
+//    kapt ("com.google.dagger:hilt-android-compiler:2.38.1")
+
+    //implementation ("co.ankurg.expressview:expressview:0.0.3")
+
+    implementation ("com.github.jd-alexander:LikeButton:0.2.3")
+
+    implementation ("com.github.AppcentMobile:Animated-like-Button:v1.0.0")
+
 
 }

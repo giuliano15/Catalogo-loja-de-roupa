@@ -11,7 +11,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.minhaloja.R
 import com.example.minhaloja.adapters.ProductAdapter
 import com.example.minhaloja.databinding.FragmentHomeBinding
-import com.example.minhaloja.model.Product
 
 class HomeFragment : Fragment() {
 
