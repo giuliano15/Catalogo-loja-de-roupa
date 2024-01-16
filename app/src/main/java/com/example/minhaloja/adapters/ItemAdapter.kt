@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
@@ -48,17 +49,17 @@ class ItemAdapter(
 
         txtPrcAntes.setPaintFlags(txtPrcAntes.getPaintFlags() or Paint.STRIKE_THRU_TEXT_FLAG)
 
-        val likeButton: View = view.findViewById(R.id.likeButtonHeart)
+        val btnAddToFavorites: ImageButton = view.findViewById(R.id.btnAddToFavorites)
        // val likeButtonFeed: View = view.findViewById(R.id.likeButtonFeed)
 
 
-        likeButton.setOnClickListener(object : OnLikeListener, View.OnClickListener {
-            override fun liked(likeButton: LikeButton) {}
-            override fun unLiked(likeButton: LikeButton) {}
-            override fun onClick(p0: View?) {
-                TODO("Not yet implemented")
-            }
-        })
+//        likeButton.setOnClickListener(object : OnLikeListener, View.OnClickListener {
+//            override fun liked(likeButton: LikeButton) {}
+//            override fun unLiked(likeButton: LikeButton) {}
+//            override fun onClick(p0: View?) {
+//                TODO("Not yet implemented")
+//            }
+//        })
 
 
 
@@ -74,20 +75,20 @@ class ItemAdapter(
 //            }
 
 
-//        btnAddToFavorites.setOnClickListener {
-//            product?.let { item ->
-//                viewModel.adicionarRemoverFavorito(fragment.requireContext(),item)
-//                favoritosCallback?.invoke(item)
-//                // ... restante do código
-//                item.clicado = !item.clicado
-//
-//                // Atualiza a imagem do botão de favoritos com base na propriedade clicado
-//                btnAddToFavorites.setImageResource(
-//                    if (item.clicado) R.drawable.ic_favorite_red_24dp
-//                    else R.drawable.favorite_border_24
-//                )
-//            }
-//        }
+        btnAddToFavorites.setOnClickListener {
+            product?.let { item ->
+                viewModel.adicionarRemoverFavorito(fragment.requireContext(),item)
+                favoritosCallback?.invoke(item)
+                // ... restante do código
+                item.clicado = !item.clicado
+
+                // Atualiza a imagem do botão de favoritos com base na propriedade clicado
+                btnAddToFavorites.setImageResource(
+                    if (item.clicado) R.drawable.ic_favorite_red_24dp
+                    else R.drawable.favorite_border_24
+                )
+            }
+        }
 
 
         imageView.setImageResource(product?.image ?: R.drawable.coffee_pot)

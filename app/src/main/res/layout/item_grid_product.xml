@@ -29,45 +29,31 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/camisa_listrada" />
 
-        <com.appcent.animatedbutton.LikeButton
-            android:id="@+id/bttn_celebrate"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginHorizontal="6dp"
-            app:iconDrawable="@drawable/baseline_celebration_24"
-            app:iconHeight="40dp"
-            app:iconWidth="40dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:likeImageColor="#FFD700"
-            app:likeBackgroundColor="#001F3F" />
 
-        <com.like.LikeButton
-            android:id = "@+id/likeButtonHeart"
-            android:layout_gravity = "center"
-            android:layout_marginStart = "16dp"
-            android:layout_marginEnd = "15dp"
-            android:layout_marginBottom = "8dp"
-            android:layout_marginTop = "4dp"
-            android:layout_width = "140dp"
-            android:layout_height = "140dp"
-            app:icon_type = "heart"
-            app:circle_start_color = "#F1DD31"
-            app:dots_primary_color = "#0E77CC"
-            app:dots_secondary_color = "#FF1A4F"
-            app:circle_end_color = "#12A518"
-            app:icon_size = "40dp"
-            app:liked = "false"
-            app:anim_scale_factor = "2"
-            app:is_enabled = "true"
-            app:layout_constraintBottom_toBottomOf="@+id/imgProduct"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.911"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imgProduct"
-            app:layout_constraintVertical_bias="0.061"/>
+<!--        <com.like.LikeButton-->
+<!--            android:id = "@+id/likeButtonHeart"-->
+<!--            android:layout_gravity = "center"-->
+<!--            android:layout_marginStart = "16dp"-->
+<!--            android:layout_marginEnd = "15dp"-->
+<!--            android:layout_marginBottom = "8dp"-->
+<!--            android:layout_marginTop = "4dp"-->
+<!--            android:layout_width = "140dp"-->
+<!--            android:layout_height = "140dp"-->
+<!--            app:icon_type = "heart"-->
+<!--            app:circle_start_color = "#F1DD31"-->
+<!--            app:dots_primary_color = "#0E77CC"-->
+<!--            app:dots_secondary_color = "#FF1A4F"-->
+<!--            app:circle_end_color = "#12A518"-->
+<!--            app:icon_size = "40dp"-->
+<!--            app:liked = "false"-->
+<!--            app:anim_scale_factor = "2"-->
+<!--            app:is_enabled = "true"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/imgProduct"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.911"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/imgProduct"-->
+<!--            app:layout_constraintVertical_bias="0.061"/>-->
 
 
 <!--        <co.ankurg.expressview.ExpressView-->
@@ -81,7 +67,7 @@
 <!--            app:layout_constraintTop_toTopOf="@+id/imgProduct"-->
 <!--            app:layout_constraintVertical_bias="0.061"/>-->
 
-       <!-- <ImageButton
+       <ImageButton
             android:id="@+id/btnAddToFavorites"
             android:layout_width="20dp"
             android:layout_height="20dp"
@@ -91,7 +77,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imgProduct"
             app:layout_constraintVertical_bias="0.061"
-            app:srcCompat="@drawable/favorite_border_24" /> -->
+            app:srcCompat="@drawable/favorite_border_24" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
