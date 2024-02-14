@@ -39,13 +39,17 @@ O Projeto Loja de Roupas é uma aplicação desenvolvida para oferecer aos usuá
 
 - **Autenticação de Login Firebase:** Implementa a autenticação de login com Firebase, oferecendo aos usuários uma forma segura de acessar suas contas e garantindo a proteção dos dados do usuário.
 
-- **Kotlin/Java:** O aplicativo é desenvolvido em Kotlin/Java, uma linguagem moderna e concisa que oferece recursos avançados de programação para o desenvolvimento de aplicativos Android.
+- **Kotlin:** O aplicativo é desenvolvido em Kotlin, uma linguagem moderna e concisa que oferece recursos avançados de programação para o desenvolvimento de aplicativos Android.
 
 - **Glide:** Utiliza a biblioteca Glide para o carregamento de imagens, garantindo uma experiência visual suave e rápida ao navegar pelos produtos.
 
 ## Demonstração em Vídeo
 
 Assista a uma demonstração do Projeto Loja de Roupas em ação no seguinte vídeo:
+
+
+
+https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/7f418016-1797-474d-ac48-f626726c925a
 
 
 
