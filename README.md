@@ -4,15 +4,16 @@ O Projeto Loja de Roupas é uma aplicação desenvolvida para oferecer aos usuá
 
 ## Imagens do App
 
-![IMG_20240214_190248](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/b8175af8-c0fc-4a93-b741-c8073c1830bc)
-![IMG_20240214_190312](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/bb0c06de-3af9-4140-bca1-2ba751470113)
-![IMG_20240214_190337](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/002db7e3-52cd-4b56-af99-5280a1170519)
-![IMG_20240214_190421](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/99cd9915-5cf4-49e2-985d-8fe6630b48f0)
-![IMG_20240214_192422](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/cefa7779-4514-4f48-8d74-90a8ae665423)
-![IMG_20240214_190456](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/39bc3466-0127-470b-b026-548b10fd2b0f)
-![IMG_20240214_192422](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/712816d6-7bec-4f61-b89c-30be467f4861)
-![IMG_20240214_190537](https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/c5b6735c-a3d7-4d94-baa3-b3bd8975c12c)
-
+<table>
+  <tr>
+    <td><img src="https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/e4f53ded-da48-4ab6-afe1-624d56743595" alt="Imagem 1"></td>
+    <td><img src="https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/48ee9ed7-0e0f-400e-9282-a36f2421acc4" alt="Imagem 2"></td>   
+    <td><img src="https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/1157d301-568d-4a1e-bc09-733a1d987709" alt="Imagem 2"></td>
+    <td><img src="https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/182056fd-c66e-49a8-a410-30997c0474e2" alt="Imagem 2"></td>
+    <td><img src="https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/7041e261-9db5-4880-9f36-feac0617c0df" alt="Imagem 2"></td>
+    <td><img src="https://github.com/giuliano15/Catalogo-loja-de-roupa/assets/12647380/e7fa114c-dc58-4895-8a02-46568379ed84" alt="Imagem 2"></td>
+  </tr>
+</table
 
 ## Funcionalidades Principais
 
