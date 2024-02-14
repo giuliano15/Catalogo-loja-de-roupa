@@ -1,6 +1,6 @@
 # Projeto Loja de Roupas
 
-O Projeto Loja de Roupas é uma aplicação desenvolvida para oferecer aos usuários uma experiência intuitiva e conveniente ao explorar e comprar roupas online. Com recursos para visualizar produtos por categoria, escolher roupas individualmente, favoritar itens para uma compra posterior e fazer pedidos via WhatsApp, este aplicativo atende às necessidades dos usuários que desejam renovar seu guarda-roupa com facilidade.
+O Projeto Loja de Roupas é uma aplicação desenvolvida para oferecer aos usuários uma experiência intuitiva e conveniente ao explorar e comprar roupas online. Com recursos para visualizar produtos por categoria, escolher roupas individualmente, favoritar itens para uma compra posterior e fazer pedidos via WhatsApp, este aplicativo atende às necessidades dos usuários que desejam renovar seu guarda-roupa com facilidade e praticidade de fazer compras no conforto de sua casa usando serviço de delivery.
 
 ## Imagens do App
 
